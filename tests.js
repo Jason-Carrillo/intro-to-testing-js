@@ -34,3 +34,11 @@ describe("sayHello", function() {
         expect(sayHello(false)).toBe("Hello, World!");
     });
 });
+
+describe("isFive", function() {
+    it("should not be undefined", function () {
+        expect(isFive()).not.toBe(undefined);
+    });
+
+
+});
